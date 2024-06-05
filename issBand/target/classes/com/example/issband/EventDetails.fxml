@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.issband.Controller.EventDetailsController">
+    <children>
+        <Label fx:id="eventIdLabel" layoutX="20.0" layoutY="20.0" text="Event ID:" />
+        <Label fx:id="eventNameLabel" layoutX="20.0" layoutY="50.0" text="Event Name:" />
+        <Label fx:id="eventDateLabel" layoutX="20.0" layoutY="80.0" text="Date:" />
+        <Label fx:id="eventVenueLabel" layoutX="20.0" layoutY="110.0" text="Venue:" />
+        <Label fx:id="bandsLabel" layoutX="20.0" layoutY="150.0" text="Bands:" />
+        <Label fx:id="ticketsLabel" layoutX="20.0" layoutY="200.0" text="TicketID:" />
+        <Label fx:id="audienceLabel" layoutX="20.0" layoutY="250.0" text="Audience:" />
+        <Button fx:id="attendAsBandButton" layoutX="388.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleAttendAsBand" text="Attend As Band" />
+        <Button fx:id="buyTicketButton" layoutX="388.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleBuyTicket" prefHeight="26.0" prefWidth="98.0" text="Buy Ticket" />
+        <Button fx:id="closeButton" layoutX="500.0" layoutY="400.0" mnemonicParsing="false" onAction="#handleCloseButton" text="Close" />
+      <Button fx:id="deleteBandButton" layoutX="499.0" layoutY="301.0" mnemonicParsing="false" onAction="#handleDeleteBand" prefHeight="26.0" prefWidth="90.0" text="Delete Band" />
+      <Button fx:id="deleteTicketButton" layoutX="499.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleDeleteTicket" prefHeight="26.0" prefWidth="90.0" text="Delete Ticket" />
+      <Button fx:id="refreshButton" layoutX="518.0" layoutY="38.0" mnemonicParsing="false" onAction="#handleRefreshButton" text="Refresh" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="150.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.issband.Controller.AttendAsBandController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Register Your Band"/>
+      <TextField fx:id="bandNameField" layoutX="14.0" layoutY="40.0" promptText="Band Name"/>
+      <TextField fx:id="managerNameField" layoutX="14.0" layoutY="70.0" promptText="Manager Name"/>
+      <Button fx:id="registerBandButton" layoutX="14.0" layoutY="100.0" mnemonicParsing="false" text="Register" onAction="#handleRegisterBand"/>
+   </children>
+</AnchorPane>

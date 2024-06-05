@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="com.example.issband.Controller.ButtonsController">
+  <children>
+    <Button text="Attend as Band" onAction="#handleAttendAsBand" />
+    <Button text="Buy Ticket" onAction="#handleBuyTicket" />
+  </children>
+  <padding>
+    <Insets top="20" right="20" bottom="20" left="20"/>
+  </padding>
+</VBox>
